@@ -1,0 +1,16 @@
+{% extends 'main/layout.html'%}
+{% load static %}
+
+{% block title %}Видеокурсы{% endblock %}
+
+    {% block content %}
+    <main class="courses">
+        <h1>Все доступные курсы</h1>
+        <a href="https://itproger.com/ua/course/python-full"><img src="{% static 'main/img/c1.webp'%}" alt=""></a>
+        <a href="https://itproger.com/ua/course/flask"><img src="{% static 'main/img/c5.webp'%}" alt=""></a>
+        <a href="https://itproger.com/ua/course/csharp-wpf-game"><img src="{% static 'main/img/c4.webp'%}" alt=""></a>
+        <a href="https://itproger.com/ua/course/java-full"><img src="{% static 'main/img/c2.webp'%}" alt=""></a>
+        <a href="https://itproger.com/ua/course/cpp-full"><img src="{% static 'main/img/c3.webp'%}" alt=""></a>
+    </main>
+
+    {% endblock %}
